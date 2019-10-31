@@ -1,0 +1,181 @@
+*{
+	font-family: "微軟正黑體";
+}
+li{
+	
+list-style:none;
+}
+.main{
+	padding: 20px;
+	background-image: url(../image/home/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+/********meau*************/
+.meau{
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+}
+.meau .image img{
+	width: 86px;
+}
+.meau p{
+	font-size: 20px;
+	color: #fff;
+}
+.meau .logo{
+	width: 184px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin: 58vh auto;
+}
+.meau-item{
+	margin-top:10px;
+	transition: 1s all;
+}
+.meau-item:hover{
+	transform: scale(1.3);
+}
+.meau-item img{
+	width: 28px;
+}
+.meau-item .col-2 img{
+	margin-left: 40px;
+	position: relative;
+	left: 33px;
+}
+.meau-item .icon{
+	position: relative;
+	margin-left: -24px;
+}
+.bb .active>li {
+    color: #f26d15!important;
+}
+/*line*/
+.line{
+	width: 3px;
+    height: auto;
+    border-radius: 20px;
+    left: 16%;
+    position: relative;
+    background: rgba(255,255,255,.5);
+}
+.line-1{
+	width: 3px;
+    height: auto;
+    border-radius: 20px;
+    left: 20%;
+    position: relative;
+    background: rgba(255,255,255,.5);
+}
+.line-2{
+	width: 15vw;
+	height: 6px;
+	border-radius: 20px;
+	background: rgba(255,255,255,.5);
+}
+/*****main******/
+.col-7{
+	padding-left: 0;
+        padding-right: 0;
+        left: 18%;
+}
+.col-7 .title{
+	margin-top: 10px;
+	color: #fff;
+}
+.contact{
+	border-radius: 20px;
+	width: 50vw;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 20px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px solid #000;
+	transition: 1s all;
+}
+.contact .col-6 h6{
+	font-weight: 400;
+	margin-bottom: 10px;
+	
+}
+.contact:hover{
+	background: linear-gradient(36deg, rgba(255, 3, 3, 1)0%, rgba(255, 187, 166, 1)57%);
+background: -moz-linear-gradient(36deg, rgba(255, 3, 3, 1)0%, rgba(255, 187, 166, 1)57%);
+background: -webkit-linear-gradient(36deg, rgba(255, 3, 3, 1)0%, rgba(255, 187, 166, 1)57%);
+background: -o-linear-gradient(36deg, rgba(255, 3, 3, 1)0%, rgba(255, 187, 166, 1)57%);
+transform: scale(1.1);
+margin-bottom: 50px;
+margin-top: 50px;
+box-shadow: 2px 2px 10px solid #FFBF95;
+color: #fff;
+text-shadow:0px 0px 8px #000;
+}
+.contact .col-8 img{
+	width: 32vw;
+}
+.contact .col-4 {
+	padding: 15px;
+}
+
+/**/
+.col-3{
+	left: 20%;
+}
+.btn{
+	display: block;
+	width: 60%;
+	margin-top: 20px;
+	transition: 1s all;
+	background: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 30px;
+	color: #000;
+}
+.btn:hover{
+	transform: scale(1.3);
+	margin-bottom: 30px;
+    margin-top: 30px;
+    background: linear-gradient(36deg, rgba(255, 3, 3, 1)0%, rgba(255, 187, 166, 1)57%);
+background: -moz-linear-gradient(36deg, rgba(255, 3, 3, 1)0%, rgba(255, 187, 166, 1)57%);
+background: -webkit-linear-gradient(36deg, rgba(255, 3, 3, 1)0%, rgba(255, 187, 166, 1)57%);
+background: -o-linear-gradient(36deg, rgba(255, 3, 3, 1)0%, rgba(255, 187, 166, 1)57%);
+transform: scale(1.5);
+}
+.btn-outline-primary{
+	border-color: none;
+}
+.r-meau{
+	position: fixed;
+	display: block;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
